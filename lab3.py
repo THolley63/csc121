@@ -6,7 +6,7 @@ arcade.set_background_color(arcade.color.GRAY)
 
 arcade.start_render
 
-#biggest yellow box (outline of soccer field)
+#outline of soccer field (bigger yellow box)
 arcade.draw_lrtb_rectangle_filled(
     15, 725, 485, 15, arcade.color.YELLOW
 )
@@ -17,8 +17,8 @@ arcade.draw_lrtb_rectangle_filled(
     368.5, 372.5, 485, 15, arcade.color.YELLOW
 )
 
-#sideline and yard markers in 
-# 10 yard increments of football field
+#sideline and yard markers of football field
+# in 10 yard increments
 arcade.draw_lrtb_rectangle_filled(
     15, 725, 404, 101, arcade.color.WHITE
 )
